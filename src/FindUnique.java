@@ -8,7 +8,7 @@ public class FindUnique {
         for(int n:arr){ //for every number in array
             unique^=n;
 
-        }
+        } 
         return unique;
     }
 }
