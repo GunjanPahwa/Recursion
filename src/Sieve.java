@@ -13,8 +13,6 @@ public class Sieve {
                 for(int j=i*2;j<=n;j+=i){
                     primes[j]=true;
                 }
-
-
             }
         }
         for(int i=2;i<=n;i++){
