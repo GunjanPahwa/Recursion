@@ -6,6 +6,7 @@ public class CountZeros {
     static int count(int n){
         return helper(n,0);
     }
+    //special pattern, how to pass a number to above calls
     private static int helper(int n, int c){
         if(n==0){
             return c;
