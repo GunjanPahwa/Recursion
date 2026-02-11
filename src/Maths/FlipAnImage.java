@@ -1,3 +1,5 @@
+package Maths;
+
 public class FlipAnImage {
     public int[][] flipAndInvertImage(int[][] image) { //question 822
         for(int[] row:image){
