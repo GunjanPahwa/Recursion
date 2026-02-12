@@ -14,7 +14,7 @@ public class Dice {
             System.out.println(p);
             return;
         }
-        for(int i=1;i<=6&&i<=target;i++){ //so that of we want to find all combinations that make 4 we don't accidently take 5 and 6
+         for(int i=1;i<=6&&i<=target;i++){ //so that of we want to find all combinations that make 4 we don't accidently take 5 and 6
 
             dice(p+i,target-i);
         }
